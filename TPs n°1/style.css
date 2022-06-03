@@ -1,0 +1,144 @@
+/* TABLE DES CONTENUS */
+/*--------------------*/
+/*
+/* 1 - Global         */
+/* 1 - Header         */
+/* 3 - Main           */
+/*     3.1 - Article  */
+/* 4 - Footer         */
+
+
+/*1-Global*/
+
+/* 1 - Global */
+*{
+    margin: 0;
+}
+body{
+    background-color: #F6F6F6;
+    font-family:sans-serif;
+}
+h1,h2,h3,h4,h4,h5,h6{
+   text-transform: uppercase;
+}
+
+h1{
+    color: #359e7b;
+}
+
+h2{
+    text-transform: uppercase;
+}
+h3{
+    margin-bottom: 20px;
+}
+h1,h2{
+    text-align: center;
+    margin: 50px auto;
+
+}
+h2,h3{
+    color: #006083;
+}
+/* 2 - Header */
+header nav{
+    background-color: #359e7b;
+}
+header nav ul{
+    max-width: 1150px;
+    margin: auto;
+    padding: 15px;
+    text-align: right;
+}
+header nav li,
+header nav a{
+     display: inline-block;
+}
+header nav a{
+    color: #F6F6F6;
+    padding: 15px;
+}
+header p{
+    max-width: 1150px;
+    margin: o auto;
+}
+/* 3 Main */
+main{
+    max-width: 1150px;
+    margin: auto;
+}
+article{
+    margin-bottom: 40px;
+}
+article p.dateTime{
+    color: grey;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+article a{
+    width: fit-content;
+    margin-left: auto;
+    color: #359e7b;
+
+
+ }
+ article a,
+ a.moreAndMore{
+     display: block;
+ }
+
+a.moreAndMore{
+    background-color: #359e7b;
+    max-width: 250px;
+    color: #FFFFFF;
+    padding: 15px;
+    margin: 40px 0px auto;
+    border-radius: 5px;
+    text-align: center;
+}
+/* 3.2 Formulaire */
+form{
+    max-width: 700px;
+    margin: auto;
+
+}
+form input,
+form textarea{
+    font-size: 25px;
+    border: none;
+    border-bottom: 2px solid #359e7b;
+    padding: 15px;
+    margin-bottom: 20px;
+    width: 100px;
+    box-sizing: border-box;
+
+}
+form textarea{
+    resize: none;
+    height: 300px;
+    border: 2px solid #359e7b;
+
+}
+input.envoi{
+    background-color: #359e7b;
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    color: #FFFFFF;
+    cursor: pointer;
+
+}
+/*footer */
+    
+footer{
+    background-color: darkgray;
+    padding: 15px;
+    text-align: center;
+    margin-top: 40px;
+
+}
+footer a:visited{
+    color: #FFFFFF;
+    
+
+}
